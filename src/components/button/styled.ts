@@ -14,7 +14,11 @@ const variants = {
 };
 
 export const Button = styled.button<ButtonProps>`
-  padding: 1rem;
+  font-size: 3rem;
+  text-align: center;
+
+  width: 4.5rem;
+  height: 4.5rem;
 
   border: none;
   border-radius: 0.3rem;
