@@ -7,7 +7,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "api:server": "json-server -p 4000 --watch db.json",
+    "api:server": "json-server -H 0.0.0.0 -p 4000 --watch db.json",
     "lint:fix": "eslint --ext .ts,.tsx src/ --fix"
   },
   "eslintConfig": {
