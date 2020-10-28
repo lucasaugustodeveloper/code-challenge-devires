@@ -4,7 +4,7 @@ import * as S from './styled';
 import propInput from './type';
 
 const Input = ({ type, name, value, placeholder, id }: propInput) => (
-  <S.Container>
+  <S.Container align="start">
     <S.Input
       type={type}
       name={name}
