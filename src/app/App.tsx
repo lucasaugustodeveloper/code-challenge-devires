@@ -9,10 +9,10 @@ import TodoList from '../components/todo';
 
 function App() {
   return (
-    <S.Container>
+    <S.Container align="center">
       <Header>Todo List</Header>
 
-      <S.Container>
+      <S.Container align="center" direction="row" className="search">
         <InputSearch
           type="text"
           name="search"
