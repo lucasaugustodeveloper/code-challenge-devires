@@ -4,6 +4,7 @@ import * as S from '../assets/styles/globalStyle';
 
 import Header from '../components/header';
 import InputSearch from '../components/input';
+import Button from '../components/button';
 import TodoList from '../components/todo';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           placeholder="enter your task"
           id="search"
         />
+        <Button type="submit" variant="success" onClick={() => false}>
+          +
+        </Button>
       </S.Container>
 
       <S.Main>
